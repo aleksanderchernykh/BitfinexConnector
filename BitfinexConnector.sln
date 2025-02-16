@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitfinexConnector.IntegrationTests", "BitfinexConnector.IntegrationTests\BitfinexConnector.IntegrationTests.csproj", "{ECF44DE3-9CF3-4CFA-9946-F5B8AE46B6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitfinexConnector.Infrastructure", "BitfinexConnector.Infrastructure\BitfinexConnector.Infrastructure.csproj", "{AFCCDB30-3E08-4CBA-B140-F4F5E4EE4C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitfinexConnector.Connector", "BitfinexConnector.Connector\BitfinexConnector.Connector.csproj", "{4DD0D596-5DAE-46E8-8F96-0D5C0B8AD787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitfinexConnector.WebApi", "BitfinexConnector.WebApi\BitfinexConnector.WebApi.csproj", "{8BC81CA9-10D5-49E4-A39C-33C096A870E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECF44DE3-9CF3-4CFA-9946-F5B8AE46B6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF44DE3-9CF3-4CFA-9946-F5B8AE46B6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF44DE3-9CF3-4CFA-9946-F5B8AE46B6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF44DE3-9CF3-4CFA-9946-F5B8AE46B6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCCDB30-3E08-4CBA-B140-F4F5E4EE4C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCCDB30-3E08-4CBA-B140-F4F5E4EE4C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCCDB30-3E08-4CBA-B140-F4F5E4EE4C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCCDB30-3E08-4CBA-B140-F4F5E4EE4C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD0D596-5DAE-46E8-8F96-0D5C0B8AD787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD0D596-5DAE-46E8-8F96-0D5C0B8AD787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD0D596-5DAE-46E8-8F96-0D5C0B8AD787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD0D596-5DAE-46E8-8F96-0D5C0B8AD787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC81CA9-10D5-49E4-A39C-33C096A870E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC81CA9-10D5-49E4-A39C-33C096A870E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC81CA9-10D5-49E4-A39C-33C096A870E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC81CA9-10D5-49E4-A39C-33C096A870E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA1B0615-41D1-446B-9C8F-9D0CCB889F59}
+	EndGlobalSection
+EndGlobal
